@@ -1,0 +1,16 @@
+{
+  "name": "video-poster",
+  "version": "0.0.1",
+  "description": "video poster splider from video, blob, uri",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "poster",
+    "video",
+    "mse"
+  ],
+  "author": "yyc",
+  "license": "ISC"
+}

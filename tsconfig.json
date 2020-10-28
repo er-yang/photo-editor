@@ -6,6 +6,6 @@
     "noUnusedLocals": true,
     "sourceMap": true
   },
-  "include": ["lib/**/*", "index.js"],
+  "include": ["lib/**/*", "index.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

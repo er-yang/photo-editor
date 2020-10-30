@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "sourceMap": true,
+    "module": "esnext",
     "noImplicitAny": false,
     "preserveConstEnums": true,
     "noUnusedLocals": true,
-    "sourceMap": true
   },
-  "include": ["lib/**/*", "index.ts"],
+  "include": ["lib/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

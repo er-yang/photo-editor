@@ -17,6 +17,11 @@ const config = {
         use: 'babel-loader',
         exclude: /node_modules/
       },
+      {
+        test: /\.less/,
+        use: ['style-loader', 'css-loader', 'less-loader'],
+        exclude: /nodu_modules/
+      }
     ]
   },
   resolve: {

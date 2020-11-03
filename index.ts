@@ -1,3 +1,3 @@
-import { fromBlob } from './lib/main';
+import { open } from './lib/main'
 
-fromBlob("23");
+module.exports = { open }
